@@ -7,7 +7,7 @@ import altair as alt
 import mplcursors
 
 # Load the saved model from file
-with open('MLP_model.pkl', 'rb') as f:
+with open('MLP_Model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
 
 with open('scaler_object.pkl', 'rb') as g:
